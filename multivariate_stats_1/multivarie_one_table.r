@@ -3,12 +3,14 @@
 # 29-09-2021
 
 # data
-	X <- read.csv("D:\\Dropbox\\en_cours\\enseignement\\tutoriels.perso\\R\\stats_multivariees_club_iees\\TD_R_data.csv")
+	X <- read.csv("./multivariate_stats_1/TD_R_data.csv")
 	idx_sp <- grep("sp[A-Z]", names(X))
 
 
 # HEATMAPS
 	# https://jokergoo.github.io/ComplexHeatmap-reference/book/
+	# if needed install package:
+	# devtools::install_github("jokergoo/ComplexHeatmap")
 
 	library(ComplexHeatmap)
 
@@ -264,6 +266,7 @@ library(factoextra)
 
 			
 				library(ggvegan)
+
 				autoplot(my_NMDS)
 
 
