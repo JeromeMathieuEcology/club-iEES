@@ -1,0 +1,15 @@
+sple_ID,region,lac_ID,zone_lac,couleur,taille_max_proies,nb_de_proies,temperature,prop_occupee,nombre_sains,nombre_malades,spA,spB,spC
+s1,a,A,milieu,jaune,8.1,5,-5,0.1,80,10,10,0,0
+s2,a,A,bord,beige,5.2,4,12,0.2,70,5,60,0,0
+s3,a,A,milieu,jaune,4,8,-3,0.1,65,6,15,0,0
+s4,a,A,bord,noir,5,5,15,0.3,55,4,20,0,0
+s5,a,A,milieu,transparent,6,8,0,0.1,82,3,30,0,0
+s6,a,A,bord,beige,4,8,20,0.15,82,3,40,0,0
+s7,a,B,milieu,bleu,2,12,5,0.4,65,10,40,10,10
+s8,a,B,bord,noir,4,15,25,0.5,45,20,50,20,20
+s9,a,B,milieu,bleu,2,18,10,0.4,56,14,20,50,40
+s10,a,B,bord,noir,2.5,12,24,0.6,42,26,25,40,60
+s11,b,C,milieu,transparent,1.2,20,15,0.7,64,40,0,30,35
+s12,b,C,bord,claire,1.1,15,26,0.8,65,52,0,0,40
+s13,b,C,milieu,transparent,0.5,28,20,0.6,62,55,0,0,20
+s14,b,C,bord,claire,1.4,21,27,0.8,54,45,0,0,50
