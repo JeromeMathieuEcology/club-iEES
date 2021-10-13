@@ -14,3 +14,5 @@ Stats Multivariées 2 (Jérôme M)
 27-10-2021
 Git + GitHub-GitLab (Jacques G + Rosalie)
 
+17-11-2021
+Markdown session pratique - presentiel au max (Xavier R)
