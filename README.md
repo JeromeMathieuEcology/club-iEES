@@ -32,7 +32,7 @@ Markdown session pratique (Xavier R)[bring your computer]
 
 
 *8-12-2021*  
-Segmenting and analyzing flight trajectories in moths (Mattieu Dacher)
+Segmenting and analyzing flight trajectories in moths (Matthieu Dacher)
 
 *15-12-2021*  
 
