@@ -2,10 +2,10 @@
  
 ## Prochaines séances thématisées
 
-*29-09-2021*  
+**29-09-2021**  
 Stats Multivariées (Jérôme M)
 
-*13-10-2021*  
+**13-10-2021**  
 Markdown (Xavier R)
 
 *20-10-2021*  
