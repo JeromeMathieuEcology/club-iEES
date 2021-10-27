@@ -29,7 +29,7 @@ Markdown session pratique (Xavier R)[bring your computer]
 
 
 *1-12-2021*   
-
+Git Hub hands on avec Rosalie et Jacques
 
 *8-12-2021*  
 Segmenting and analyzing flight trajectories in moths (Matthieu Dacher)
@@ -37,4 +37,4 @@ Segmenting and analyzing flight trajectories in moths (Matthieu Dacher)
 *15-12-2021*  
 
 
-25-12-2021 NOel!!!
+24-12-2021 NOel!!!
