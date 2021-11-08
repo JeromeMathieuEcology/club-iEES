@@ -19,7 +19,7 @@ Holidays ;-)
 
 
 *10-11-2021*  
-
+Jam session: share your recent discoveries, ask questions, share news, just say Hi
 
 *17-11-2021*  
 Markdown session pratique (Xavier R)[bring your computer]
@@ -37,4 +37,4 @@ Segmenting and analyzing flight trajectories in moths (Matthieu Dacher)
 *15-12-2021*  
 
 
-24-12-2021 NOel!!!
+24-12-2021 Noel!!!
