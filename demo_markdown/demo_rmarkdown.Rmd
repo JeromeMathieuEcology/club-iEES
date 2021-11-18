@@ -1,0 +1,38 @@
+---
+title: "Demo Markdown"
+author: "Xavier Raynaud"
+date: "11/17/2021"
+output:
+  word_document:
+    reference_docx: style.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::read_chunk("Rscript.R")
+```
+
+Le document est paramétré pour générer un fichier doc avec des styles définis à la main. Pour faire cela sans casser les mises en formes par défaut (bloc de code avec fond gris par exemple), j'ai généré un document word à partir d'un fichier markdown vierge, j'ai modifié les styles que je souhaitais modifier (titre, auteur et titre de chapitre 2) et sauvegardé ce fichier au format docx. Le fichier contient du texte qui est scrupuleusement ignoré à la génération de ce markdown.
+
+
+```{r init_bloc}
+```
+
+## Ceci est un titre
+
+Le bloc de code ci dessous est lu depuis le fichier `Rscript.R`. Il correspond à toutes les lignes comprises entre `bloc_code` et `bloc_code2`. (Note: en Markdown, une apostrophe inversée autour d'un texte fait qu'à la génération, le texte sera écrit avec une police à chasse fixe. Par contre, grace à RMarkdown, écrire *r 2+2* entre 2 appostrophes inversées permet d'executer le code en ligne avec R: 2+2 = `r 2+2`).
+
+
+```{r bloc_code}
+```
+
+Vous remarquerez si vous allez voir le fichier `Rscript.R` que j'ai écrit en français sous `#---- bloc_code2 ----` sans mettre de commentaire et que la génération du markdown ne pose pas de problèmes car le bloc n'est pas lu.
+
+## Titre 2
+
+On peut mixer les code dans un script avec d'autres blocs classiques
+Dans les arguments fournis pour la figure, les arguments fig.* servent à paramétrer la "fenêtre graphique" que R va utiliser pour générer la figure (en gros, la forme du panneau à droite dans Rstudio), et les arguments out.* définissent la taille de l'image dans le document généré. Les arguments out.* ont besoin d'une unité (cm, in, px...). 
+
+```{r bloc_local, fig.cap="Une figure", fig.width = 3, fig.height = 2, out.width = "5cm"}
+ggplot(data.frame(x=rnorm(100)), aes(x=x)) + geom_histogram()
+```
