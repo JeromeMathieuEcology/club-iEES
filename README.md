@@ -35,6 +35,6 @@ Git Hub hands on avec Rosalie et Jacques
 Segmenting and analyzing flight trajectories in moths (Matthieu Dacher)
 
 *15-12-2021*  
-
+GitHub - Hands on - Part II [Bring your computer]
 
 24-12-2021 Noel!!!
