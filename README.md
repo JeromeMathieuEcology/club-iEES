@@ -12,7 +12,7 @@ Multivariate stats - Jerome M
 Multivariate stats- Jerome M
 
 *26-01-2022*  
-Arduino and microcontrolers for research - JF Printanier
+Arduino et microcontroleurs pour la recherche - JF Printanier [100% on-line]
 
 *12-01-2022*  
 GitHub - Hands on - Part III : collaborate with others [100% on-line]
