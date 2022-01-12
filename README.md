@@ -2,17 +2,20 @@
 
 ## Planning  
 
+*18-05-2022*  
+Calling C++ code from R - Stephane Chantepie 
+
 *13-04-2022*  
 Graphs with ggplot2 - Xavier R
 
-*02-02-2022*  
+*09-02-2022*  
 Multivariate stats - Jerome M
 
 *02-02-2022*  
 Multivariate stats- Jerome M
 
 *26-01-2022*  
-Arduino et microcontroleurs pour la recherche - JF Printanier [100% on-line]
+Arduino et microcontroleurs pour la recherche - Jean François Printanier [100% on-line]
 
 *12-01-2022*  
 GitHub - Hands on - Part III : collaborate with others [100% on-line]
