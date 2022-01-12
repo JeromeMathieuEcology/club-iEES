@@ -2,17 +2,17 @@
 
 ## Planning
 
-*13-04-2022*
+*13-04-2022*  
 Graphs with ggplot2 - Xavier R
 
 
-*02-02-2022*
+*02-02-2022*  
 Multivariate stats - Jerome M
 
-*02-02-2022*
+*02-02-2022*  
 Multivariate stats- Jerome M
 
-*26-01-2022*
+*26-01-2022*  
 Arduino and microcontrolers for research - JF Printanier
 
 *12-01-2022*  
