@@ -2,7 +2,8 @@
 
 ## Planning
 
-Update Rosalie
+
+Modification Maxime & Rosalie
 
 *13-04-2022*
 Graphs with ggplot2 - Xavier R
