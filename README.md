@@ -1,10 +1,9 @@
 # club-iEES
 
-## Planning
+## Planning  
 
 *13-04-2022*  
 Graphs with ggplot2 - Xavier R
-
 
 *02-02-2022*  
 Multivariate stats - Jerome M
@@ -43,9 +42,9 @@ Git + GitHub-GitLab (Jacques G & Rosalie)[bring your computer]
 *20-10-2021*  
 Stats Multivariées 2 Hands-on (Jérôme M)[bring your computer]
 
-**13-10-2021**  
+*13-10-2021*  
 Markdown (Xavier R)
 
-**29-09-2021**  
+*29-09-2021*  
 Stats Multivariées (Jérôme M)
 
