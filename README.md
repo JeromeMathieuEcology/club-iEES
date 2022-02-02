@@ -9,7 +9,7 @@ Calling C++ code from R - Stephane Chantepie
 Graphs with ggplot2 - Xavier R
 
 *09-02-2022*  
-Multivariate stats - Jerome M
+ACP - la suite - Jerome M
 
 *02-02-2022*  
 Multivariate stats- Jerome M
