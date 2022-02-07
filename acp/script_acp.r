@@ -30,13 +30,14 @@ library(factoextra)
 		apply(data_pca_centred,2,var)
 
 
-# 1° matrice sigma de variance covariance
-	(sigma <- var(data_pca_centred))
-	# on retrouve bien les variances en diag
+# 1° ACP Manuelle
+	# matrice sigma de variance covariance
+		(sigma <- var(data_pca_centred))
+		# on retrouve bien les variances en diag
 
 
-# 2° décomposition de sigma en val propres et vect propres
-	(sigma2 <- eigen(sigma))
+	# décomposition de sigma en val propres et vect propres
+		(sigma2 <- eigen(sigma))
 
 	# inertie totale
 		(inertie <- sum(sigma2$values))
@@ -52,7 +53,7 @@ library(factoextra)
 			abline(0 , sigma2$vectors[2,2]/sigma2$vectors[1,2])
 
 
-# 3° coordonnées des observations projetees dans le plan pca
+	# coordonnées des observations projetees dans le plan pca
 
 		# je ne me rapelle plus de l'ordre des multiplications, mais j'ai trouvé 2 solutions
 			# il faudrait creuser pour voir la quelle est la bonne
@@ -83,10 +84,14 @@ library(factoextra)
 
 # ----
 
-# acp fonction de base -> on trouve pareil qu'en manuel
+# 2° acp fonction de base -> on trouve pareil qu'en manuel
 	(pca_base <- prcomp(data_pca))
+
 	# coords des points projetes (on retrouve la mm chose qu'en manuel, ouf!)
-	pca_base$x
+		pca_base$x
+
+	# valeurs propres
+		pca_base$sdev^2
 
 	# graph
 		plot(pca_base$x, col = "white", pch = 20, cex = 2, main  = "acp fonction de base")
@@ -96,12 +101,12 @@ library(factoextra)
 
 
 
-# ACP avec vegan
+# 3° ACP avec vegan
 	(pca_vegan <- vegan::rda(data_pca_centred))
 	summary(pca_vegan)
 
 	# coordinates des pts projetes
-	pca_vegan$CA$u
+		pca_vegan$CA$u
 
 	# on trouve comme en manuel, mais avec un scaling par variable, il faut trouver la formule
 	# ca doit dependre de la valeur propre de chaque axe et du nombre d'obs
@@ -113,35 +118,32 @@ library(factoextra)
 
 
 
-# acp avec ade4
-	x11()
+# 4° acp avec ade4
 	pca_ade <- dudi.pca(data_pca_centred, scale = F, nf = 2, scannf = FALSE)
 
 	# on trouve mm pas les mm valeurs propres...
 	pca_ade$eig
 
 	# coords des points projetes
+		pca_ade$li
+		coords
+		
+	# passage des coordonnées aux scores : on divise chaque axe par la racine carre de la v propre associee d'après ade
+		data.frame(	sc1 = pca_ade$li [,1]/ sqrt(pca_ade$eig[1]),
+					sc2 = pca_ade$li [,2]/ sqrt(pca_ade$eig[2]))
 		pca_ade$l1
 
-	# il y a aussi un scaling a trouver :
-		pca_ade$l1/coords
-
 	# plot
+		x11()
 		fviz_pca_ind(pca_ade)
-
-
-# ==> on voit que chque fonction renvoie les memes coordones a un scaling et une symetrie près
-# ade ne renvoie pas les memes valeurs propres (->??)
-
-
 
 
 
 # garbage
 
-# longeur de chaque obs
-apply((as.matrix(data_pca_centred)%*%sigma)^2, 1, sum)
+	# longeur de chaque obs
+	apply((as.matrix(data_pca_centred)%*%sigma)^2, 1, sum)
 
-# coordonnées normées par la longeur des obs
-coords_norm <- as.matrix(data_pca_centred)%*%sigma / apply((as.matrix(data_pca_centred)%*%sigma)^2, 1, sum)
-plot(coords_norm)
+	# coordonnées normées par la longeur des obs
+	coords_norm <- as.matrix(data_pca_centred)%*%sigma / apply((as.matrix(data_pca_centred)%*%sigma)^2, 1, sum)
+	plot(coords_norm)
