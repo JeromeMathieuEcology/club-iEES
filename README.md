@@ -8,6 +8,12 @@ Calling C++ code from R - Stephane Chantepie
 *13-04-2022*  
 Graphs with ggplot2 - Xavier R
 
+*16-03-2022*  
+Mixed models - Thomas Tully
+
+*9-03-2022*  
+Mini stat stories: come with you function
+
 *09-02-2022*  
 ACP - la suite - Jerome M
 
