@@ -5,6 +5,9 @@
 *18-05-2022*  
 Calling C++ code from R - Stephane Chantepie 
 
+*11-05-2022*  
+Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" https://github.com/settings/emails - Samuel Charberet
+
 *13-04-2022*  
 Graphs with ggplot2 - Xavier R
 
@@ -16,6 +19,12 @@ Mixed models - Thomas Tully
 
 *9-03-2022*  
 Mini stat stories: come with your function()
+
+*2-03-2022*  
+organisation du club
+
+*16 & 23 -02-2022*  
+Vacances!
 
 *09-02-2022*  
 ACP - la suite - Jerome M
