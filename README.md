@@ -6,7 +6,7 @@
 Calling C++ code from R - Stephane Chantepie 
 
 *11-05-2022*  
-Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" https://github.com/settings/emails - Samuel Charberet
+Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" - Samuel Charberet
 
 *13-04-2022*  
 Graphs with ggplot2 - Xavier R
