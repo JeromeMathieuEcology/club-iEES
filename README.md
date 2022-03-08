@@ -2,20 +2,23 @@
 
 ## Planning  
 
+*25-05-2022*  
+adiv: An r package to analyse biodiversity in ecology | Sandrine Pavoine
+
 *18-05-2022*  
-Calling C++ code from R - Stephane Chantepie 
+Calling C++ code from R | Stephane Chantepie 
 
 *11-05-2022*  
-Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" - Samuel Charberet
+Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" | Samuel Charberet
 
 *13-04-2022*  
-Graphs with ggplot2 - Xavier R
+Graphs with ggplot2 | Xavier R
 
 *23-03-2022*  
 Venez avec votre ACP
 
 *16-03-2022*  
-Mixed models - Thomas Tully
+Mixed models | Thomas Tully
 
 *9-03-2022*  
 Mini stat stories: come with your function()
