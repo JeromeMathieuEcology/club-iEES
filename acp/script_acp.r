@@ -128,7 +128,7 @@ library(factoextra)
 		pca_ade$li
 		coords
 		
-	# passage des coordonnées aux scores : on divise chaque axe par la racine carre de la v propre associee d'après ade
+	# passage des coordonnées aux scores : on divise chaque axe par la racine carre de la v propre associee 
 		data.frame(	sc1 = pca_ade$li [,1]/ sqrt(pca_ade$eig[1]),
 					sc2 = pca_ade$li [,2]/ sqrt(pca_ade$eig[2]))
 		pca_ade$l1
