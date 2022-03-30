@@ -11,14 +11,16 @@ Calling C++ code from R | Stephane Chantepie
 *11-05-2022*  
 Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" | Samuel Charberet
 
+*vacations*
+
 *13-04-2022*  
 Graphs with ggplot2 | Xavier R
 
-*23-03-2022*  
-Venez avec votre ACP
+*6-04-2022*  
+TBA
 
-*16-03-2022*  
-Mixed models | Thomas Tully
+*30-03-2022*  
+Viens avec ton problème stats!
 
 *9-03-2022*  
 Mini stat stories: come with your function()
