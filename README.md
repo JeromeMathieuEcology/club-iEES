@@ -14,10 +14,10 @@ Reproducibility in R : "Dynamic function oriented, make-like declarative workflo
 *vacations*
 
 *13-04-2022*  
-Graphs with ggplot2 | Xavier R
+Graph exibition in the cafeteria! + Graphs with ggplot2 | Xavier R
 
 *6-04-2022*  
-TBA
+Viens avec ton problème stats!
 
 *30-03-2022*  
 Viens avec ton problème stats!
