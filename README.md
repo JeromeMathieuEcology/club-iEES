@@ -11,6 +11,9 @@ Calling C++ code from R | Stephane Chantepie
 *11-05-2022*  
 Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" | Samuel Charberet
 
+*4-05-2022*  
+COVID Data Vizualisation | Florence Débarre
+
 *vacations*
 
 *13-04-2022*  
