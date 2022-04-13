@@ -16,6 +16,9 @@ COVID Data Vizualisation | Florence Débarre
 
 *vacations*
 
+*20-04-2022*
+Viens avec ton graph!
+
 *13-04-2022*  
 Graph exibition in the cafeteria! + Graphs with ggplot2 | Xavier R
 
