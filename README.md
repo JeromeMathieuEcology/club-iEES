@@ -1,19 +1,50 @@
 # club-iEES
 
-## Planning
+## Planning  
 
-*13-04-2022*
-Graphs with ggplot2 - Xavier R
+*25-05-2022*  
+adiv: An r package to analyse biodiversity in ecology | Sandrine Pavoine
 
+*18-05-2022*  
+Calling C++ code from R | Stephane Chantepie 
 
-*02-02-2022*
-Multivariate stats - Jerome M
+*11-05-2022*  
+Reproducibility in R : "Dynamic function oriented, make-like declarative workflow" | Samuel Charberet
 
-*02-02-2022*
+*4-05-2022*  
+COVID Data Vizualisation | Florence Débarre
+
+*vacations*
+
+*20-04-2022*
+Viens avec ton graph!
+
+*13-04-2022*  
+Graph exibition in the cafeteria! + Graphs with ggplot2 | Xavier R
+
+*6-04-2022*  
+Viens avec ton problème stats!
+
+*30-03-2022*  
+Viens avec ton problème stats!
+
+*9-03-2022*  
+Mini stat stories: come with your function()
+
+*2-03-2022*  
+organisation du club
+
+*16 & 23 -02-2022*  
+Vacances!
+
+*09-02-2022*  
+ACP - la suite - Jerome M
+
+*02-02-2022*  
 Multivariate stats- Jerome M
 
-*26-01-2022*
-Arduino and microcontrolers for research - JF Printanier
+*26-01-2022*  
+Arduino et microcontroleurs pour la recherche - Jean François Printanier [100% on-line]
 
 *12-01-2022*  
 GitHub - Hands on - Part III : collaborate with others [100% on-line]
