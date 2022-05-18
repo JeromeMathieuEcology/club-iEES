@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 *.pptx
+
+.DS_Store
+*.o
