@@ -1,9 +1,11 @@
 # club-iEES
 
 ## Planning  
+*8-06-2022* 
+Amène ton problème de stats | Séance dédiée aux stagiaires et doctorant.e.s 
 
-*25-05-2022*  
-adiv: An r package to analyse biodiversity in ecology | Sandrine Pavoine
+*1-06-2022* 
+Amène ton problème de stats | Séance dédiée aux stagiaires et doctorant.e.s 
 
 *18-05-2022*  
 Calling C++ code from R | Stephane Chantepie 
