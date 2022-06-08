@@ -1,6 +1,22 @@
 # club-iEES
 
 ## Planning  
+
+
+big plans:  
+
+fall 2022 : iees goes baysian  
+sept : maximum likelyhood estimation (needs volunteers)  
+sept : Tidyverse (Xavier)  
+summer 2022 : Intro to Machine Learning (Jerome)  
+
+
+*22-06-2022*  
+Explore the species' traits - environment links: RLQ analysis | Tristan C.-D.  
+
+*15-06-2022*  
+no club  
+
 *8-06-2022*  
 Amène ton problème de stats | Séance dédiée aux stagiaires et doctorant.e.s 
 
