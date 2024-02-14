@@ -10,7 +10,7 @@ Files provided in this folder include:
 
 -  the pluto notebook that we presented, which wraps up what we presented in the jupyter notebooks and more. This pluto notebook is in two formats:
    - the compiled output in html format **Intro_julia.html**
-   - the source julia file **Intro_julia.jl** that you can view in a text editor or run with pluto by installing the Pluto package in a Julia console (`using Pkg; Pkg.add("Pluto")`) and run it by typing in the julia console 'import Pluto; Pluto.run()' ; then Pluto opens in your internet navigator and you open the file via its browser.
+   - the source julia file **Intro_julia.jl** that you can view in a text editor or run with pluto by installing the Pluto package in a Julia console (`using Pkg; Pkg.add("Pluto")`) and run it by typing in the julia console `import Pluto; Pluto.run()` ; then Pluto opens in your internet navigator and you open the file via its browser.
    - there are two images called when running this pluto notebook: *JuliaLogo.png* and *julia_prompt.png*
    
 - the Jupyter notebooks that you can run in Jupyter lab:
